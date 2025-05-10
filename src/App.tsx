@@ -1,7 +1,7 @@
 import React from "react";
 import { Header } from "./shared/Header";
 import "./App.scss";
-import { Article } from "./shared/Article";
+import { Article } from "./shared/Article/ui/index";
 
 function App() {
   return (
