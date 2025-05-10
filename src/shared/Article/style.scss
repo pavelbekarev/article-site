@@ -1,0 +1,51 @@
+.article {
+  margin: 5rem auto;
+
+  &__code {
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  &__annotation {
+    text-align: right;
+    &__text {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+
+  &__title {
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+    margin: 5rem auto;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    text-indent: 6rem;
+    padding: 0 2rem;
+    font-size: 2rem;
+    text-align: justify;
+  }
+
+  &__subtitleContainer {
+    margin-top: 5rem;
+
+    &__subtitle {
+      font-size: 2.5rem;
+      width: 60%;
+      text-align: center;
+      margin: 0rem auto;
+    }
+  }
+
+  &__list {
+    // margin: 0;
+    &__text {
+      margin-left: 5rem !important;
+      text-indent: 3rem !important;
+    }
+  }
+}

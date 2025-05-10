@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  padding: 4rem 0;
+
+  &__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      list-style: none;
+
+      &__item {
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+
+    &__text {
+      font-size: 2rem;
+      color: #fff;
+
+      &:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

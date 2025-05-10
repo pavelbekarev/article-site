@@ -1,0 +1,31 @@
+:root {
+  --baseFontSize: 8px;
+  --baseFontFamily: sans-serif;
+  --baseLineHeight: 1.5;
+  --baseFontWeight: normal;
+
+  --baseBorderRadius: 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: var(--baseFontWeight) var(--baseFontSize) / var(--baseLineHeight)
+    var(--baseFontFamily);
+}
+
+.container {
+  max-width: 150rem;
+  margin: 0 auto;
+  // background-color: rgba(255, 0, 0, 0.4);
+}
+
+.App {
+  &__header {
+    background-color: black;
+  }
+}
